@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Internship ##004 - SASS :: Liberatys - Nick</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This blog entry has been created after going through the Learn sass in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
+SASS Sass is an extension to the css language. It tries to bring some features to css that will make larger codebases easier and will also help developers keep track of current colors and other variables that are the same all across the board." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://liberatnick.ch/post/internship_sass/" />
+
+
+
+
+<link rel="stylesheet" href="https://liberatnick.ch/assets/style.css">
+
+  <link rel="stylesheet" href="https://liberatnick.ch/assets/red.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://liberatnick.ch/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:creator" content="" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Internship ##004 - SASS :: Liberatys - Nick">
+<meta property="og:description" content="A small article to scss" />
+<meta property="og:url" content="https://liberatnick.ch/post/internship_sass/" />
+<meta property="og:site_name" content="Internship ##004 - SASS" />
+
+  
+    <meta property="og:image" content="https://liberatnick.ch/img/favicon/red.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-08-06 08:35:33 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container full headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Liberatys - Nick
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<main>
+    <article>
+    <header>
+        <h1>Internship ##004 - SASS</h1>
+    </header>
+    <div class="table_of_content">
+        <h2>Table of contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#variables">Variables</a></li>
+    <li><a href="#contro-flow">Contro Flow</a></li>
+    <li><a href="#functions">Functions</a></li>
+    <li><a href="#cheat-sheet">Cheat Sheet</a></li>
+    <li><a href="#testing-sass">Testing SASS</a></li>
+  </ul>
+</nav>
+        <br>
+        <br>
+    </div>
+        <p><strong>This blog entry has been created after going through the <a href="https://learnxinyminutes.com/docs/css/">Learn sass in Y Minutes</a> course. I&rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.</strong></p>
+<h1 id="sass">SASS</h1>
+<p>Sass is an extension to the css language. It tries to bring some features to css that will make larger codebases easier and will also help developers keep track of current colors and other variables that are the same all across the board.</p>
+<p>It is a tool to write css faster and make its mantenance easier and cleaner.</p>
+<h2 id="variables">Variables</h2>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">scss</span>
+      <span class="collapsable-code__title">Variables</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-scss" ><code>
+
+$main-color: #27d79d;
+$font: &#39;Roboto&#39;, sans-serif;
+
+
+// It is then possible to reference these variables in other parts of the code
+body {
+    background-color: $main-color;
+    font-family:  $font;
+}
+</code></pre>
+  </div>
+
+
+<h2 id="contro-flow">Contro Flow</h2>
+<p>Like other &ldquo;programming languages&rdquo; SCSS lets you use if, else, while and each to control the flow of your code compilation</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">scss</span>
+      <span class="collapsable-code__title">Control Flow</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-scss" ><code>
+$goodday: true !default;
+@mixin goodday {
+    @if $goodday {
+        display: inline-block;
+    }
+    @else {
+        display: none;
+    }
+}
+.info {
+    @include goodday;
+}
+
+
+
+// the code below willl create div:nth-of-type(1-100)
+@for $c from 1 to 100 {
+    div:nth-of-type(#{$c}) {
+        left: $c;
+    }
+}
+==&gt;
+
+div:nth-of-type(1) {
+	 left: 1;
+}
+ div:nth-of-type(2) {
+	 left: 2;
+}
+
+// @each is used in the same way as for but requires a list the be used on
+
+$list: 1 2 3 4 5;
+.numbers {
+    @each $sm in $list {
+        .number-#{$sm} {
+            font-size: $sm;
+        }
+    }
+}
+
+// mixins are placeholders that stand for a set of set stylings that can be imported into other stylings
+
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+div {
+    @include center;
+    background-color: $primary-color;
+}
+
+
+// mixins can also be used with variables
+@mixin big($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+.square {
+    @include size(60px, 60px);
+}
+
+</code></pre>
+  </div>
+
+
+<h2 id="functions">Functions</h2>
+<p>SASS also brings you some functions that will help you create stylings faster</p>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">scss</span>
+      <span class="collapsable-code__title">Variables</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-scss" ><code>
+    //TODO
+</code></pre>
+  </div>
+
+
+<h2 id="cheat-sheet">Cheat Sheet</h2>
+<p>Because SASS adds a lot of cool stuff to css it&rsquo;s a lot to read.
+A very nice person has created a cheat sheet on github so that you can quickly check something if you are unsure about the syntax.</p>
+<p><a href="https://github.com/miguelmota/sass-cheatsheet">Cheat Sheet by miguelmota</a></p>
+<h2 id="testing-sass">Testing SASS</h2>
+<p>For just testing some commands and playing around with them you can also use
+<a href="https://www.sassmeister.com/">SassMeister</a>.
+So you can see the compiled css code of your snippets.</p>
+
+    </article>
+    <style>
+           .table_of_content ul{
+                list-style:none;
+           }         
+           .table_of_content{
+               text-align: center;
+           }
+
+           .table_of_content ul li{
+            text-align: center;
+           }
+
+           .table_of_content h2{
+               text-decoration: underline;
+           }
+    </style>
+</main>
+
+  </div>
+
+  
+    © 2020 Liberatys - Nick - CC BY 4.0
+  
+</div>
+
+</body>
+</html>

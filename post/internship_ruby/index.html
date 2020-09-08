@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Internship #001 - Ruby :: Liberatys - Nick</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ruby Today we had the opportunity to go through a tutorial / course on the ruby programming language. Because Ruby on Rails is a wiedly adopted tool in the field of web development, ruby and the knowledge thereof can come in handy in many situations.
+Difference between Ruby and other langauges  Ruby is a very dynamic and adaptive programming language that enables the programmer to go fast and stay close to the meaning of what he is trying to achieve Most methods and operations in ruby are intutive and very close to spoken language(English) Ruby code is compact, elegant and brings along a lot of hidden magic Ruby is an open source langauge." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://liberatnick.ch/post/internship_ruby/" />
+
+
+
+
+<link rel="stylesheet" href="https://liberatnick.ch/assets/style.css">
+
+  <link rel="stylesheet" href="https://liberatnick.ch/assets/red.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://liberatnick.ch/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:creator" content="" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Internship #001 - Ruby :: Liberatys - Nick">
+<meta property="og:description" content="My first entry documenting my internship" />
+<meta property="og:url" content="https://liberatnick.ch/post/internship_ruby/" />
+<meta property="og:site_name" content="Internship #001 - Ruby" />
+
+  
+    <meta property="og:image" content="https://liberatnick.ch/img/favicon/red.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-08-04 18:53:44 &#43;0000 &#43;0000" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container full headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Liberatys - Nick
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<main>
+    <article>
+    <header>
+        <h1>Internship #001 - Ruby</h1>
+    </header>
+    <div class="table_of_content">
+        <h2>Table of contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#difference-between-ruby-and-other-langauges">Difference between Ruby and other langauges</a></li>
+    <li><a href="#variables-and-datatypes">Variables and Datatypes</a></li>
+    <li><a href="#some-methods">Some methods</a>
+      <ul>
+        <li><a href="#length">.length</a></li>
+        <li><a href="#reverse">.reverse</a></li>
+        <li><a href="#upcase--downcase">.upcase &amp; .downcase</a></li>
+        <li><a href="#if-else-and-elsif">If, else and elsif</a></li>
+      </ul>
+    </li>
+    <li><a href="#comments">Comments</a>
+      <ul>
+        <li><a href="#single-line">Single line</a></li>
+        <li><a href="#multy-line">Multy line </a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        <br>
+        <br>
+    </div>
+        <h1 id="ruby">Ruby</h1>
+<p>Today we had the opportunity to go through a tutorial / course on the ruby programming language. Because Ruby on Rails is a wiedly adopted tool in the field of web development, ruby and the knowledge thereof can come in handy in many situations.</p>
+<h2 id="difference-between-ruby-and-other-langauges">Difference between Ruby and other langauges</h2>
+<ul>
+<li>Ruby is a very dynamic and adaptive programming language that enables the programmer to go fast and stay close to the meaning of what he is trying to achieve</li>
+<li>Most methods and operations in ruby are intutive and very close to spoken language(English)</li>
+<li>Ruby code is compact, elegant and brings along a lot of hidden magic</li>
+<li>Ruby is an open source langauge. Therefore anyone working with the langauge can report issues and fix them right away. This results in a very user orientated langauge that is a compilement of many great ideas sourcing from many great minds</li>
+</ul>
+<p><strong>But enough about the langauge. Lets see some code. 🚀</strong></p>
+<h2 id="variables-and-datatypes">Variables and Datatypes</h2>
+<p>Like most programming languages ruby has different datatypes that can be stored in variables.
+The most used and basic ones are:</p>
+<ul>
+<li>Numbers</li>
+<li>Booleans</li>
+<li>Strings</li>
+</ul>
+<p>In ruby a type decleration is not needed, therefore we can just asign values to variables without knowing what type it is (kinda)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">    my_num <span style="color:#f92672">=</span> <span style="color:#ae81ff">25</span>
+    my_boolean <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>
+    my_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Ruby&#34;</span>
+        
+    puts my_num
+    puts my_boolean
+    puts my_string
+</code></pre></div><p><strong>&ldquo;puts&rdquo; prints the value of the variable to the standard output</strong></p>
+<h2 id="some-methods">Some methods</h2>
+<h3 id="length">.length</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">    <span style="color:#e6db74">&#34;Nick&#34;</span><span style="color:#f92672">.</span>length <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>
+</code></pre></div><h3 id="reverse">.reverse</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">    <span style="color:#e6db74">&#34;Nick&#34;</span><span style="color:#f92672">.</span>reverse <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;kciN&#34;</span>
+</code></pre></div><h3 id="upcase--downcase">.upcase &amp; .downcase</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">    <span style="color:#e6db74">&#34;Nick&#34;</span><span style="color:#f92672">.</span>upcase <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;NICK&#34;</span>
+
+    <span style="color:#e6db74">&#34;Nick&#34;</span><span style="color:#f92672">.</span>downcase <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;nick&#34;</span>
+</code></pre></div><h3 id="if-else-and-elsif">If, else and elsif</h3>
+<p>Rather than explaining how these well known parts of programming work I&rsquo;d like to just throw some code at you</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">    year <span style="color:#f92672">=</span> <span style="color:#ae81ff">2020</span>
+    state_of_year <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A good year&#34;</span>
+    year_of_corona <span style="color:#f92672">=</span> <span style="color:#ae81ff">2020</span>
+    <span style="color:#66d9ef">if</span> year_of_corona <span style="color:#f92672">==</span> year
+        state_of_year <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A bad year&#34;</span>
+    <span style="color:#66d9ef">elsif</span> year_of_corona <span style="color:#f92672">==</span> (year <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+            state_of_year <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;An okay year&#34;</span>
+    <span style="color:#66d9ef">elsif</span> year_of_corona <span style="color:#f92672">==</span> (year <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>)
+            state_of_year <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+    <span style="color:#66d9ef">else</span>
+        state_of_year <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;A very good year&#34;</span>
+    
+    <span style="color:#66d9ef">end</span>
+
+    puts state_of_year <span style="color:#75715e"># A bad year</span>
+</code></pre></div><h2 id="comments">Comments</h2>
+<h3 id="single-line">Single line</h3>
+<p>Like many other languages ruby uses a hashtag as it&rsquo;s marker for a single line comment</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">    <span style="color:#75715e"># This is a comment</span>
+</code></pre></div><h3 id="multy-line">Multy line </h3>
+<p>When it comes to multiline comments ruby is a bit unique. Rather than using the well known /*, ruby uses a different convention</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">    <span style="color:#f92672">=</span><span style="color:#66d9ef">begin</span>
+        <span style="color:#66d9ef">This</span> is a long comment
+        <span style="color:#66d9ef">Only</span> written <span style="color:#66d9ef">for</span> this entry
+    <span style="color:#f92672">=</span><span style="color:#66d9ef">end</span>
+</code></pre></div>
+    </article>
+    <style>
+           .table_of_content ul{
+                list-style:none;
+           }         
+           .table_of_content{
+               text-align: center;
+           }
+
+           .table_of_content ul li{
+            text-align: center;
+           }
+
+           .table_of_content h2{
+               text-decoration: underline;
+           }
+    </style>
+</main>
+
+  </div>
+
+  
+    © 2020 Liberatys - Nick - CC BY 4.0
+  
+</div>
+
+</body>
+</html>

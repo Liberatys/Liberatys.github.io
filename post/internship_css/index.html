@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Internship #003 - CSS :: Liberatys - Nick</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="This blog entry has been created after going through the Learn css in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
+CSS Web pages are buillt and structured with HTML, which specifies the content and hirachy of a page. CSS(Cascading Styles Sheets) specifies the apperance of a page.
+CSS is a set of static rules that define how an object appears on the page based on its selectors." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://liberatnick.ch/post/internship_css/" />
+
+
+
+
+<link rel="stylesheet" href="https://liberatnick.ch/assets/style.css">
+
+  <link rel="stylesheet" href="https://liberatnick.ch/assets/red.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://liberatnick.ch/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:creator" content="" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Internship #003 - CSS :: Liberatys - Nick">
+<meta property="og:description" content="An entry about css" />
+<meta property="og:url" content="https://liberatnick.ch/post/internship_css/" />
+<meta property="og:site_name" content="Internship #003 - CSS" />
+
+  
+    <meta property="og:image" content="https://liberatnick.ch/img/favicon/red.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-08-06 08:35:33 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container full headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Liberatys - Nick
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<main>
+    <article>
+    <header>
+        <h1>Internship #003 - CSS</h1>
+    </header>
+    <div class="table_of_content">
+        <h2>Table of contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#comments">Comments</a></li>
+    <li><a href="#selectors">Selectors</a></li>
+    <li><a href="#events">Events</a></li>
+  </ul>
+</nav>
+        <br>
+        <br>
+    </div>
+        <p><strong>This blog entry has been created after going through the <a href="https://learnxinyminutes.com/docs/css/">Learn css in Y Minutes</a> course. I&rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.</strong></p>
+<h1 id="css">CSS</h1>
+<p>Web pages are buillt and structured with HTML, which specifies the content and hirachy of a page. CSS(Cascading Styles Sheets) specifies the apperance of a page.</p>
+<p>CSS is a set of static rules that define how an object appears on the page based on its selectors. Styles / Rules are only applied to elements if they have the correct selector and thus follow under the given rule.</p>
+<h2 id="comments">Comments</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">    <span style="color:#75715e">/*
+</span><span style="color:#75715e">        This is a comment
+</span><span style="color:#75715e">    */</span>
+</code></pre></div><h2 id="selectors">Selectors</h2>
+<p>Different types of selectors are given a different prefix in order to be understood in the context of css</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">    <span style="color:#75715e">/* A class */</span>
+    .<span style="color:#a6e22e">class</span>
+    <span style="color:#75715e">/* An id */</span>
+    #id
+    <span style="color:#75715e">/* Its name is also a selector */</span>
+    <span style="color:#f92672">div</span>
+    <span style="color:#75715e">/* 
+</span><span style="color:#75715e">        One may also chain multiple selectors 
+</span><span style="color:#75715e">        The code below would effect both classes
+</span><span style="color:#75715e">    */</span>
+    .<span style="color:#a6e22e">class1</span>.<span style="color:#a6e22e">class2</span> { }
+
+    <span style="color:#75715e">/* 
+</span><span style="color:#75715e">        Elements can also be selected based on their attributes
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#f92672">[</span><span style="color:#f92672">attr</span><span style="color:#f92672">]</span> { <span style="color:#66d9ef">font-size</span>:<span style="color:#66d9ef">smaller</span>; }
+
+    <span style="color:#75715e">/* 
+</span><span style="color:#75715e">        Or that they have a specific attribute value
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#f92672">[</span><span style="color:#f92672">attr</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#39;value&#39;</span><span style="color:#f92672">]</span> { <span style="color:#66d9ef">font-size</span>:<span style="color:#66d9ef">smaller</span>; }
+
+    <span style="color:#75715e">/* 
+</span><span style="color:#75715e">        You can then also chain these different selectors to get a very specific class
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#f92672">div</span>.<span style="color:#a6e22e">some-class</span><span style="color:#f92672">[</span><span style="color:#f92672">attr</span><span style="color:#f92672">$=</span><span style="color:#e6db74">&#39;ue&#39;</span><span style="color:#f92672">]</span> { }
+
+    <span style="color:#75715e">/* 
+</span><span style="color:#75715e">        CSS also has a model of &#34;inheritance&#34;
+</span><span style="color:#75715e">        Therefore we can also select parents and children
+</span><span style="color:#75715e">    */</span>
+    <span style="color:#f92672">div</span>.<span style="color:#a6e22e">some-parent</span> <span style="color:#f92672">&gt;</span> .<span style="color:#a6e22e">class-name</span> { }
+
+    <span style="color:#f92672">div</span>.<span style="color:#a6e22e">some-parent</span> .<span style="color:#a6e22e">class-name</span> { }
+</code></pre></div><h2 id="events">Events</h2>
+<p>CSS has a set of special selectors that can be used to select an element based on a particular state</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">    <span style="color:#75715e">/* When an element is hovered over */</span>
+    <span style="color:#f92672">selector</span>:<span style="color:#a6e22e">hover</span> { }
+
+    <span style="color:#75715e">/* When an element has been visited {like a link} */</span>
+    <span style="color:#f92672">selector</span>:<span style="color:#a6e22e">visited</span> { }
+
+    <span style="color:#75715e">/* When an element has not been visited */</span>
+    <span style="color:#f92672">selected</span>:<span style="color:#a6e22e">link</span> { }
+
+    <span style="color:#75715e">/* An element is focused */</span>
+    <span style="color:#f92672">selected</span>:<span style="color:#a6e22e">focus</span> { }
+</code></pre></div><p>You can also use some locational selectors to select elements that have a certain place in the document</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">    <span style="color:#75715e">/* The first child */</span>
+    <span style="color:#f92672">selector</span>:<span style="color:#a6e22e">first-child</span> {}
+
+    <span style="color:#75715e">/* The last child */</span>
+    <span style="color:#f92672">selector</span>:<span style="color:#a6e22e">last-child</span> {}
+
+    <span style="color:#75715e">/* Every nth element */</span>
+    <span style="color:#f92672">selector</span>:<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">2</span><span style="color:#f92672">)</span>
+
+    <span style="color:#75715e">/* Every odd element */</span>
+    <span style="color:#f92672">p</span>:<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">odd</span><span style="color:#f92672">)</span> {
+        <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">red</span>;
+    }
+
+    <span style="color:#75715e">/* Every even element */</span>
+    <span style="color:#f92672">p</span>:<span style="color:#a6e22e">nth-child</span><span style="color:#f92672">(</span><span style="color:#f92672">even</span><span style="color:#f92672">)</span> {
+        <span style="color:#66d9ef">background</span>: <span style="color:#66d9ef">blue</span>;
+    }
+</code></pre></div><p><strong>Some special selectors include</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">    <span style="color:#75715e">/* All elements */</span>
+    <span style="color:#f92672">*</span> { }
+
+    <span style="color:#75715e">/* All descendants */</span>
+    .<span style="color:#a6e22e">parent</span> <span style="color:#f92672">*</span> { }
+
+    <span style="color:#75715e">/* All children */</span>
+    .<span style="color:#a6e22e">parent</span> <span style="color:#f92672">&gt;</span> <span style="color:#f92672">*</span> { }
+
+</code></pre></div><p><strong>Some ways of setting sizes in CSS</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">    <span style="color:#f92672">width</span><span style="color:#f92672">:</span> <span style="color:#f92672">50</span><span style="color:#f92672">%;</span><span style="color:#75715e">/* percentage of parent element width */</span>
+    <span style="color:#f92672">font-size</span><span style="color:#f92672">:</span> <span style="color:#f92672">2em</span><span style="color:#f92672">;</span>   <span style="color:#75715e">/* multiples of element&#39;s original font-size */</span>
+    <span style="color:#f92672">font-size</span><span style="color:#f92672">:</span> <span style="color:#f92672">2rem</span><span style="color:#f92672">;</span>  <span style="color:#75715e">/* or the root element&#39;s font-size */</span>
+    <span style="color:#f92672">font-size</span><span style="color:#f92672">:</span> <span style="color:#f92672">2vw</span><span style="color:#f92672">;</span>   <span style="color:#75715e">/* multiples of 1% of the viewport&#39;s width (CSS 3) */</span>
+    <span style="color:#f92672">font-size</span><span style="color:#f92672">:</span> <span style="color:#f92672">2vh</span><span style="color:#f92672">;</span>   <span style="color:#75715e">/* or its height */</span>
+    <span style="color:#f92672">font-size</span><span style="color:#f92672">:</span> <span style="color:#f92672">2vmin</span><span style="color:#f92672">;</span> <span style="color:#75715e">/* whichever of a vh or a vw is smaller */</span>
+    <span style="color:#f92672">font-size</span><span style="color:#f92672">:</span> <span style="color:#f92672">2vmax</span><span style="color:#f92672">;</span> <span style="color:#75715e">/* or greater */</span>
+
+</code></pre></div>
+    </article>
+    <style>
+           .table_of_content ul{
+                list-style:none;
+           }         
+           .table_of_content{
+               text-align: center;
+           }
+
+           .table_of_content ul li{
+            text-align: center;
+           }
+
+           .table_of_content h2{
+               text-decoration: underline;
+           }
+    </style>
+</main>
+
+  </div>
+
+  
+    © 2020 Liberatys - Nick - CC BY 4.0
+  
+</div>
+
+</body>
+</html>

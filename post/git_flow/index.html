@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Internship #005 - Git Flow :: Liberatys - Nick</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="References:
+ https://danielkummer.github.io/git-flow-cheatsheet/ https://nvie.com/posts/a-successful-git-branching-model/  Git Flow Git flow is multiple things. On the one side it&amp;rsquo;s a git extension that you can use to push, pull, merge and checkout. On the other side its a branching model that gives you advice on handling your branching system in git repos.
+First I&amp;rsquo;d like to show the git extensions so that we have that out of the way
+Installation of Git Extensions bash Installation    MacOS Homebrew brew install git-flow-avh Macports port install git-flow-avh Linux apt-get install git-flow Windows Cygwin wget -q -O - --no-check-certificate https://raw." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://liberatnick.ch/post/git_flow/" />
+
+
+
+
+<link rel="stylesheet" href="https://liberatnick.ch/assets/style.css">
+
+  <link rel="stylesheet" href="https://liberatnick.ch/assets/red.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://liberatnick.ch/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:creator" content="" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Internship #005 - Git Flow :: Liberatys - Nick">
+<meta property="og:description" content="A blog entry on the branching model - git flow" />
+<meta property="og:url" content="https://liberatnick.ch/post/git_flow/" />
+<meta property="og:site_name" content="Internship #005 - Git Flow" />
+
+  
+    <meta property="og:image" content="https://liberatnick.ch/img/favicon/red.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-08-09 08:49:18 &#43;0200 CEST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container full headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Liberatys - Nick
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<main>
+    <article>
+    <header>
+        <h1>Internship #005 - Git Flow</h1>
+    </header>
+    <div class="table_of_content">
+        <h2>Table of contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installation-of-git-extensions">Installation of Git Extensions</a>
+      <ul>
+        <li><a href="#usage-of-the-extension">Usage of the extension</a></li>
+      </ul>
+    </li>
+    <li><a href="#git-flow-as-a-branching-model">Git Flow as a branching model</a>
+      <ul>
+        <li><a href="#branches">Branches</a></li>
+        <li><a href="#git-flow-branching-summary">Git flow branching summary</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        <br>
+        <br>
+    </div>
+        <p>References:</p>
+<ul>
+<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">https://danielkummer.github.io/git-flow-cheatsheet/</a></li>
+<li><a href="https://nvie.com/posts/a-successful-git-branching-model/">https://nvie.com/posts/a-successful-git-branching-model/</a></li>
+</ul>
+<h1 id="git-flow">Git Flow</h1>
+<p>Git flow is multiple things. On the one side it&rsquo;s a git extension that you can use to push, pull, merge and checkout. On the other side its a branching model that gives you advice on handling your branching system in git repos.</p>
+<p><strong>First I&rsquo;d like to show the git extensions so that we have that out of the way</strong></p>
+<h2 id="installation-of-git-extensions">Installation of Git Extensions</h2>
+
+
+
+  <div class="collapsable-code">
+    <input id="1" type="checkbox"  />
+    <label for="1">
+      <span class="collapsable-code__language">bash</span>
+      <span class="collapsable-code__title">Installation</span>
+      <span class="collapsable-code__toggle" data-label-expand="Show" data-label-collapse="Hide"></span>
+    </label>
+    <pre class="language-bash" ><code>
+
+    MacOS
+
+        Homebrew
+            brew install git-flow-avh
+
+        Macports
+            port install git-flow-avh
+
+    Linux
+
+        apt-get install git-flow
+
+
+    Windows
+
+        Cygwin
+            wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh install stable | bash
+
+</code></pre>
+  </div>
+
+
+<p><strong>More information on the installation can also be found in the <a href="https://github.com/petervanderdoes/gitflow-avh/wiki/Installation">wiki</a></strong></p>
+<h3 id="usage-of-the-extension">Usage of the extension</h3>
+<p>You can start using git-flow by running</p>
+<pre><code>git flow init
+</code></pre>
+<p>in the root of your project.</p>
+<p>The command will prompt you to answer some questions about the naming of different branches.</p>
+<p>Based on multiple sources on GitHub and co, I would advise you to use the default names if your company doesn&rsquo;t specify different ones.</p>
+<p>You can start a new feature with the command</p>
+<pre><code>git flow feature start NAME
+</code></pre>
+<p>This command will create a new feature branch that is based on the develop branch. What these branch names mean will be explained in the next part of the entry.</p>
+<p>If you are finished with implementing a feature you can run</p>
+<pre><code>git flow feature finish NAME
+</code></pre>
+<p>to merge the feature back into develop and remove the branch</p>
+<h4 id="working-with-others">Working with others</h4>
+<p>If you are working with other people you can publish the feature you are working on with</p>
+<pre><code>git flow feature publish Name
+</code></pre>
+<p>and others can then pull that feature with</p>
+<pre><code>git flow feature pull origin Name
+</code></pre>
+<p>This is just a quick overview of how git-flow handles features. Git flow can also handle releases and hotfixes. But they more or less follow the same principle. Therefore I would urge you to read the wiki on git-flow and maybe try out some of the commands yourself.</p>
+<p><a href="https://github.com/petervanderdoes/gitflow-avh">Git Flow</a></p>
+<h2 id="git-flow-as-a-branching-model">Git Flow as a branching model</h2>
+<h3 id="branches">Branches</h3>
+<p>When using the git-flow branching model we split the project into the following branches:</p>
+<ul>
+<li>develop [infinite lifetime]</li>
+<li>master [infinite lifetime]</li>
+<li>features [multiple]</li>
+<li>release branches</li>
+<li>hotfixes [multiple]</li>
+</ul>
+<p>In this system the main branches are:</p>
+<ul>
+<li>develop</li>
+<li>master</li>
+</ul>
+<p>Where master reflects the current state of release and develop the current state of the finished development. Vincent Driessen also called it the integration branch.</p>
+<p>Besides the main branches, we have branches that act in a secondary capacity.</p>
+<h4 id="feature-branches">Feature branches</h4>
+<p>When working on a new functionality/feature we create a new Feature branch for that implementation. These feature branches live amongst the develop branch and merge their implementations into the develop branch when they are finished.</p>
+<p>With these multiple features for current releases or future releases can be developed at the same time and merge back into the develop branch when there are finished are needed.
+This creates a model that enables multiple developers to work on the same project and then merge their features back into the development head.</p>
+<pre><code>Please be aware that when merging a feature into the main branch you should use 
+
+    git merge --no-ff [branch name]
+
+to create a new commit object. This ensures that no information about the feature is lost and the history is intact.
+</code></pre>
+<h4 id="release-branches">Release branches</h4>
+<p>When you and your team have finished implementing a set of features (like the end of a sprint) and tested them (and fixes some bugs). You create a new release</p>
+<p>This release then represents the desired point in time you want to separate the current features from the future ones. Like when entering a new sprint. You want to release the implemented features to ensure business value for the client as soon as possible and then work on the new features when this sprints features are released.</p>
+<p><strong>The only thing that is now inserted into the release branch are bug fixes.</strong></p>
+<p>These are important to ensure that the client gets a working and sound product that can be used in productions.</p>
+<pre><code>git checkout -b release-[number] develop
+</code></pre>
+<p>When you have finished fixing bugs in the release branch it is time to push it to production.</p>
+<p>So we merge the release branch into the master to reflect the new state of the production product.</p>
+<p>We also create a new tag to mark the new release</p>
+<pre><code>git tag -a [number]
+</code></pre>
+<p><strong>To keep the bug fixes in the release we have to also merge back the changes into the develop branch.</strong></p>
+<h4 id="hotfix-branches">Hotfix branches</h4>
+<p>Hotfixes are bug fixes that run between develop and master. They are created when a situation arises that is in need of immediate attention.</p>
+<p>These changes, not unlike the release branches, are merged into master and develop.
+Therefore the creation and merging of branches are the same as with the release branches.</p>
+<h3 id="git-flow-branching-summary">Git flow branching summary</h3>
+<p>Here is an image summarizing the git-flow branching model. The diagram is created by Vincent Driessen.</p>
+<p><a href="https://nvie.com/img/git-model@2x.png">https://nvie.com/img/git-model@2x.png</a></p>
+
+  <img src="https://nvie.com/img/git-model@2x.png"  alt="Git flow branching model"  class="center"  />
+
+
+
+    </article>
+    <style>
+           .table_of_content ul{
+                list-style:none;
+           }         
+           .table_of_content{
+               text-align: center;
+           }
+
+           .table_of_content ul li{
+            text-align: center;
+           }
+
+           .table_of_content h2{
+               text-decoration: underline;
+           }
+    </style>
+</main>
+
+  </div>
+
+  
+    © 2020 Liberatys - Nick - CC BY 4.0
+  
+</div>
+
+</body>
+</html>

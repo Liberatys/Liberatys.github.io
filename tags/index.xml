@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Liberatys - Nick</title>
+    <link>https://liberatnick.ch/tags/</link>
+    <description>Recent content in Tags on Liberatys - Nick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Aug 2020 08:49:18 +0200</lastBuildDate>
+    
+	<atom:link href="https://liberatnick.ch/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>branching</title>
+      <link>https://liberatnick.ch/tags/branching/</link>
+      <pubDate>Sun, 09 Aug 2020 08:49:18 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/branching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://liberatnick.ch/tags/git/</link>
+      <pubDate>Sun, 09 Aug 2020 08:49:18 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>operations</title>
+      <link>https://liberatnick.ch/tags/operations/</link>
+      <pubDate>Sun, 09 Aug 2020 08:49:18 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/operations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://liberatnick.ch/tags/css/</link>
+      <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://liberatnick.ch/tags/learning/</link>
+      <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sass</title>
+      <link>https://liberatnick.ch/tags/sass/</link>
+      <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>styling</title>
+      <link>https://liberatnick.ch/tags/styling/</link>
+      <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/styling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concept</title>
+      <link>https://liberatnick.ch/tags/concept/</link>
+      <pubDate>Wed, 05 Aug 2020 13:45:28 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/concept/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design pattern</title>
+      <link>https://liberatnick.ch/tags/design-pattern/</link>
+      <pubDate>Wed, 05 Aug 2020 13:45:28 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/design-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://liberatnick.ch/tags/programming/</link>
+      <pubDate>Tue, 04 Aug 2020 18:53:44 +0000</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://liberatnick.ch/tags/ruby/</link>
+      <pubDate>Tue, 04 Aug 2020 18:53:44 +0000</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
