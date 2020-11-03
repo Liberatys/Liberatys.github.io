@@ -16,34 +16,35 @@ SASS Sass is an extension to the css language. It tries to bring some features t
 
 
 <link rel="stylesheet" href="https://liberatnick.ch/assets/style.css">
+<link rel="stylesheet" href="https://liberatnick.ch/assets/custom.css">
+<link rel="stylesheet" href="https://liberatnick.ch/assets/terminal.css">
 
-  <link rel="stylesheet" href="https://liberatnick.ch/assets/red.css">
-
-
-
-
+  <link rel="stylesheet" href="https://liberatnick.ch/assets/blue.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://liberatnick.ch/img/apple-touch-icon-144-precomposed.png">
 
-  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/red.png">
+
+
+
+<link rel="apple-touch-icon" href="https://liberatnick.ch/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/blue.png">
 
 
 
 <meta name="twitter:card" content="summary" />
 
-<meta name="twitter:creator" content="" />
 
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Internship ##004 - SASS :: Liberatys - Nick">
+<meta property="og:title" content="Internship ##004 - SASS">
 <meta property="og:description" content="A small article to scss" />
 <meta property="og:url" content="https://liberatnick.ch/post/internship_sass/" />
-<meta property="og:site_name" content="Internship ##004 - SASS" />
+<meta property="og:site_name" content="Liberatys - Nick" />
 
   
-    <meta property="og:image" content="https://liberatnick.ch/img/favicon/red.png">
+    <meta property="og:image" content="https://liberatnick.ch/img/favicon/blue.png">
   
 
 <meta property="og:image:width" content="2048">
@@ -64,7 +65,7 @@ SASS Sass is an extension to the css language. It tries to bring some features t
 
 
 </head>
-<body class="">
+<body class="blue">
 
 
 <div class="container full headings--one-size">
@@ -117,20 +118,8 @@ SASS Sass is an extension to the css language. It tries to bring some features t
     <header>
         <h1>Internship ##004 - SASS</h1>
     </header>
-    <div class="table_of_content">
-        <h2>Table of contents</h2>
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#variables">Variables</a></li>
-    <li><a href="#contro-flow">Contro Flow</a></li>
-    <li><a href="#functions">Functions</a></li>
-    <li><a href="#cheat-sheet">Cheat Sheet</a></li>
-    <li><a href="#testing-sass">Testing SASS</a></li>
-  </ul>
-</nav>
-        <br>
-        <br>
-    </div>
+    
+    <div class="content-container">
         <p><strong>This blog entry has been created after going through the <a href="https://learnxinyminutes.com/docs/css/">Learn sass in Y Minutes</a> course. I&rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.</strong></p>
 <h1 id="sass">SASS</h1>
 <p>Sass is an extension to the css language. It tries to bring some features to css that will make larger codebases easier and will also help developers keep track of current colors and other variables that are the same all across the board.</p>
@@ -272,19 +261,25 @@ A very nice person has created a cheat sheet on github so that you can quickly c
 <a href="https://www.sassmeister.com/">SassMeister</a>.
 So you can see the compiled css code of your snippets.</p>
 
+    </div>
     </article>
     <style>
            .table_of_content ul{
-                list-style:none;
+            list-style:none;
            }         
            .table_of_content{
                text-align: center;
            }
-
+           .table_of_content ul {
+               text-align: center;
+           }
            .table_of_content ul li{
             text-align: center;
            }
-
+           .table_of_content {
+                margin-left: auto !important;
+                margin-right: auto !important;
+           }
            .table_of_content h2{
                text-decoration: underline;
            }
@@ -294,7 +289,10 @@ So you can see the compiled css code of your snippets.</p>
   </div>
 
   
-    © 2020 Liberatys - Nick - CC BY 4.0
+    <div class="footer">
+© 2020 Liberatys - Nick - CC BY 4.0
+</div>
+
   
 </div>
 

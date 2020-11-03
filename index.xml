@@ -6,15 +6,11 @@
     <description>Recent content on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2020 08:49:18 +0200</lastBuildDate>
-    
-	<atom:link href="https://liberatnick.ch/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://liberatnick.ch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Internship #005 - Git Flow</title>
       <link>https://liberatnick.ch/post/git_flow/</link>
-      <pubDate>Sun, 09 Aug 2020 08:49:18 +0200</pubDate>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://liberatnick.ch/post/git_flow/</guid>
       <description>References:
@@ -61,6 +57,15 @@ CSS is a set of static rules that define how an object appears on the page based
       <guid>https://liberatnick.ch/post/internship_ruby/</guid>
       <description>Ruby Today we had the opportunity to go through a tutorial / course on the ruby programming language. Because Ruby on Rails is a wiedly adopted tool in the field of web development, ruby and the knowledge thereof can come in handy in many situations.
 Difference between Ruby and other langauges  Ruby is a very dynamic and adaptive programming language that enables the programmer to go fast and stay close to the meaning of what he is trying to achieve Most methods and operations in ruby are intutive and very close to spoken language(English) Ruby code is compact, elegant and brings along a lot of hidden magic Ruby is an open source langauge.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://liberatnick.ch/about/</link>
+      <pubDate>Fri, 29 May 2020 01:14:36 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/about/</guid>
+      <description>About me</description>
     </item>
     
   </channel>

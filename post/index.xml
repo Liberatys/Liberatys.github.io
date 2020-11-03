@@ -6,15 +6,11 @@
     <description>Recent content in Posts on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2020 08:49:18 +0200</lastBuildDate>
-    
-	<atom:link href="https://liberatnick.ch/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://liberatnick.ch/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Internship #005 - Git Flow</title>
       <link>https://liberatnick.ch/post/git_flow/</link>
-      <pubDate>Sun, 09 Aug 2020 08:49:18 +0200</pubDate>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://liberatnick.ch/post/git_flow/</guid>
       <description>References:

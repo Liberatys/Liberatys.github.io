@@ -17,34 +17,35 @@ CSS is a set of static rules that define how an object appears on the page based
 
 
 <link rel="stylesheet" href="https://liberatnick.ch/assets/style.css">
+<link rel="stylesheet" href="https://liberatnick.ch/assets/custom.css">
+<link rel="stylesheet" href="https://liberatnick.ch/assets/terminal.css">
 
-  <link rel="stylesheet" href="https://liberatnick.ch/assets/red.css">
-
-
-
-
+  <link rel="stylesheet" href="https://liberatnick.ch/assets/blue.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://liberatnick.ch/img/apple-touch-icon-144-precomposed.png">
 
-  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/red.png">
+
+
+
+<link rel="apple-touch-icon" href="https://liberatnick.ch/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="https://liberatnick.ch/img/favicon/blue.png">
 
 
 
 <meta name="twitter:card" content="summary" />
 
-<meta name="twitter:creator" content="" />
 
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Internship #003 - CSS :: Liberatys - Nick">
+<meta property="og:title" content="Internship #003 - CSS">
 <meta property="og:description" content="An entry about css" />
 <meta property="og:url" content="https://liberatnick.ch/post/internship_css/" />
-<meta property="og:site_name" content="Internship #003 - CSS" />
+<meta property="og:site_name" content="Liberatys - Nick" />
 
   
-    <meta property="og:image" content="https://liberatnick.ch/img/favicon/red.png">
+    <meta property="og:image" content="https://liberatnick.ch/img/favicon/blue.png">
   
 
 <meta property="og:image:width" content="2048">
@@ -65,7 +66,7 @@ CSS is a set of static rules that define how an object appears on the page based
 
 
 </head>
-<body class="">
+<body class="blue">
 
 
 <div class="container full headings--one-size">
@@ -118,18 +119,8 @@ CSS is a set of static rules that define how an object appears on the page based
     <header>
         <h1>Internship #003 - CSS</h1>
     </header>
-    <div class="table_of_content">
-        <h2>Table of contents</h2>
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#comments">Comments</a></li>
-    <li><a href="#selectors">Selectors</a></li>
-    <li><a href="#events">Events</a></li>
-  </ul>
-</nav>
-        <br>
-        <br>
-    </div>
+    
+    <div class="content-container">
         <p><strong>This blog entry has been created after going through the <a href="https://learnxinyminutes.com/docs/css/">Learn css in Y Minutes</a> course. I&rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.</strong></p>
 <h1 id="css">CSS</h1>
 <p>Web pages are buillt and structured with HTML, which specifies the content and hirachy of a page. CSS(Cascading Styles Sheets) specifies the apperance of a page.</p>
@@ -226,19 +217,25 @@ CSS is a set of static rules that define how an object appears on the page based
     <span style="color:#f92672">font-size</span><span style="color:#f92672">:</span> <span style="color:#f92672">2vmax</span><span style="color:#f92672">;</span> <span style="color:#75715e">/* or greater */</span>
 
 </code></pre></div>
+    </div>
     </article>
     <style>
            .table_of_content ul{
-                list-style:none;
+            list-style:none;
            }         
            .table_of_content{
                text-align: center;
            }
-
+           .table_of_content ul {
+               text-align: center;
+           }
            .table_of_content ul li{
             text-align: center;
            }
-
+           .table_of_content {
+                margin-left: auto !important;
+                margin-right: auto !important;
+           }
            .table_of_content h2{
                text-decoration: underline;
            }
@@ -248,7 +245,10 @@ CSS is a set of static rules that define how an object appears on the page based
   </div>
 
   
-    © 2020 Liberatys - Nick - CC BY 4.0
+    <div class="footer">
+© 2020 Liberatys - Nick - CC BY 4.0
+</div>
+
   
 </div>
 
