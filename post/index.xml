@@ -6,9 +6,20 @@
     <description>Recent content in Posts on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://liberatnick.ch/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Nov 2020 17:06:26 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Internship #005 - Git Flow</title>
+      <title>Network wars - WIP</title>
+      <link>https://liberatnick.ch/post/golang_learning_day/</link>
+      <pubDate>Wed, 04 Nov 2020 17:06:26 +0100</pubDate>
+      
+      <guid>https://liberatnick.ch/post/golang_learning_day/</guid>
+      <description>As an intern at Renuo I often have the opportunity to learn new technologies and also share my knowledge with others that are as interested in programming as I am.
+Thus, I was really happy when I was asked to organize the Renuo Golang learning day 2021. And because it is golang we are talking about, I just had to make something with networking and threading.
+What is a learning day ?</description>
+    </item>
+    
+    <item>
+      <title>Git Flow</title>
       <link>https://liberatnick.ch/post/git_flow/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -20,17 +31,7 @@ Installation of Git Extensions bash Installation    MacOS Homebrew brew install 
     </item>
     
     <item>
-      <title>Internship ##004 - SASS</title>
-      <link>https://liberatnick.ch/post/internship_sass/</link>
-      <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
-      
-      <guid>https://liberatnick.ch/post/internship_sass/</guid>
-      <description>This blog entry has been created after going through the Learn sass in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
-SASS Sass is an extension to the css language. It tries to bring some features to css that will make larger codebases easier and will also help developers keep track of current colors and other variables that are the same all across the board.</description>
-    </item>
-    
-    <item>
-      <title>Internship #003 - CSS</title>
+      <title>CSS</title>
       <link>https://liberatnick.ch/post/internship_css/</link>
       <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
       
@@ -41,7 +42,17 @@ CSS is a set of static rules that define how an object appears on the page based
     </item>
     
     <item>
-      <title>Internship #002 - MVC</title>
+      <title>SASS</title>
+      <link>https://liberatnick.ch/post/internship_sass/</link>
+      <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/post/internship_sass/</guid>
+      <description>This blog entry has been created after going through the Learn sass in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
+SASS Sass is an extension to the css language. It tries to bring some features to css that will make larger codebases easier and will also help developers keep track of current colors and other variables that are the same all across the board.</description>
+    </item>
+    
+    <item>
+      <title>MVC</title>
       <link>https://liberatnick.ch/post/internship_mvc/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:28 +0200</pubDate>
       
@@ -50,7 +61,7 @@ CSS is a set of static rules that define how an object appears on the page based
     </item>
     
     <item>
-      <title>Internship #001 - Ruby</title>
+      <title>Ruby</title>
       <link>https://liberatnick.ch/post/internship_ruby/</link>
       <pubDate>Tue, 04 Aug 2020 18:53:44 +0000</pubDate>
       
