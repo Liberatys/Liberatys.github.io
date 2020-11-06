@@ -6,16 +6,14 @@
     <description>Recent content in Posts on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Nov 2020 17:06:26 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 21:16:43 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Network wars - WIP</title>
-      <link>https://liberatnick.ch/post/golang_learning_day/</link>
-      <pubDate>Wed, 04 Nov 2020 17:06:26 +0100</pubDate>
+      <title>Lymn</title>
+      <link>https://liberatnick.ch/post/lymn/</link>
+      <pubDate>Fri, 06 Nov 2020 21:16:43 +0100</pubDate>
       
-      <guid>https://liberatnick.ch/post/golang_learning_day/</guid>
-      <description>As an intern at Renuo I often have the opportunity to learn new technologies and also share my knowledge with others that are as interested in programming as I am.
-Thus, I was really happy when I was asked to organize the Renuo Golang learning day 2021. And because it is golang we are talking about, I just had to make something with networking and threading.
-What is a learning day ?</description>
+      <guid>https://liberatnick.ch/post/lymn/</guid>
+      <description></description>
     </item>
     
     <item>
