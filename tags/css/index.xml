@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 06 Aug 2020 08:35:33 +0200</lastBuildDate><atom:link href="https://liberatnick.ch/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS</title>
-      <link>https://liberatnick.ch/post/internship_css/</link>
+      <link>https://liberatnick.ch/posts/internship_css/</link>
       <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
       
-      <guid>https://liberatnick.ch/post/internship_css/</guid>
+      <guid>https://liberatnick.ch/posts/internship_css/</guid>
       <description>This blog entry has been created after going through the Learn css in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
 CSS Web pages are buillt and structured with HTML, which specifies the content and hirachy of a page. CSS(Cascading Styles Sheets) specifies the apperance of a page.
 CSS is a set of static rules that define how an object appears on the page based on its selectors.</description>

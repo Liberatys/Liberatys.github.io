@@ -9,12 +9,12 @@
     <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://liberatnick.ch/tags/branching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Flow</title>
-      <link>https://liberatnick.ch/post/git_flow/</link>
+      <link>https://liberatnick.ch/posts/git_flow/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://liberatnick.ch/post/git_flow/</guid>
+      <guid>https://liberatnick.ch/posts/git_flow/</guid>
       <description>References:
- https://danielkummer.github.io/git-flow-cheatsheet/ https://nvie.com/posts/a-successful-git-branching-model/  Git Flow Git flow is multiple things. On the one side it&amp;rsquo;s a git extension that you can use to push, pull, merge and checkout. On the other side its a branching model that gives you advice on handling your branching system in git repos.
+ https://danielkummer.github.io/git-flow-cheatsheet/ https://nvie.com/posts/a-successful-git-branching-model/  Git flow is multiple things. On the one side it&amp;rsquo;s a git extension that you can use to push, pull, merge and checkout. On the other side its a branching model that gives you advice on handling your branching system in git repos.
 First I&amp;rsquo;d like to show the git extensions so that we have that out of the way
 Installation of Git Extensions MacOS Homebrew brew install git-flow-avh Macports port install git-flow-avh Linux apt-get install git-flow Windows Cygwin wget -q -O - --no-check-certificate https://raw.</description>
     </item>

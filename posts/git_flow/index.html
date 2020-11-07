@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Git Flow | Liberatys - Nick</title>
+  <meta name="description" content="  Hey there 👋 My name is Nick, but you can call me Liberatys. I&#39;m an intern developer looking for his place in tech. 
+  At the moment I&#39;m interested in the web, databases and tooling around monitoring">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:title" content="Git Flow" />
+<meta property="og:description" content="A blog entry on the branching model - git flow" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://liberatnick.ch/posts/git_flow/" />
+<meta property="article:published_time" content="2020-08-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-09T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git Flow"/>
+<meta name="twitter:description" content="A blog entry on the branching model - git flow"/>
+
+  
+  
+    
+  
+  
+
+  <link disabled id='dark-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-dark.css">
+  <link id='white-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-white.css">
+  <link rel="stylesheet" href="https://liberatnick.ch/css/custom.css">
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="https://liberatnick.ch/images/favicon.ico" />
+
+  
+  
+  
+  
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+  <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+        <li><a href="/">Home</a></li>
+         
+        <li><a href="/posts">All posts</a></li>
+         
+        <li><a href="/tags">Tags</a></li>
+         
+        <li><a href="/about">About</a></li>
+         
+        <li><a href="/stack">Stack</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li>
+          <a class="icon" href=" https://liberatnick.ch/posts/internship_css/">
+            <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+            <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
+          </a>
+        </li>
+        <li>
+          <a class="icon" href="#">
+            <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
+          </a>
+        </li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f">
+      <i class="fab fa-facebook " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&text=Git%20Flow">
+      <i class="fab fa-twitter " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-linkedin " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&is_video=false&description=Git%20Flow">
+      <i class="fab fa-pinterest " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Git%20Flow&body=Check out this article: https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f">
+      <i class="fas fa-envelope " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-get-pocket " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-reddit " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-digg " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&name=Git%20Flow&description=A%20blog%20entry%20on%20the%20branching%20model%20-%20git%20flow">
+      <i class="fab fa-tumblr " aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&t=Git%20Flow">
+      <i class="fab fa-hacker-news " aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installation-of-git-extensions">Installation of Git Extensions</a>
+      <ul>
+        <li><a href="#usage-of-the-extension">Usage of the extension</a></li>
+      </ul>
+    </li>
+    <li><a href="#git-flow-as-a-branching-model">Git Flow as a branching model</a>
+      <ul>
+        <li><a href="#branches">Branches</a></li>
+        <li><a href="#git-flow-branching-summary">Git flow branching summary</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </span>
+</div>
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h1 class="posttitle" itemprop="name headline">
+        Git Flow
+      </h1>
+      <div class="meta">
+        
+        <div class="postdate">
+          
+          <time datetime="2020-08-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">2020-08-09</time>
+          
+        </div>
+        
+        
+        <div class="article-tag">
+            <i class="fas fa-tag"></i>
+            
+            
+            <a class="tag-link" href="/tags/git" rel="tag">git</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/branching" rel="tag">branching</a>
+            
+             ,  
+            <a class="tag-link" href="/tags/operations" rel="tag">operations</a>
+            
+        </div>
+        
+      </div>
+    </header>
+
+  
+    <div class="content" itemprop="articleBody">
+      <p>References:</p>
+<ul>
+<li><a href="https://danielkummer.github.io/git-flow-cheatsheet/">https://danielkummer.github.io/git-flow-cheatsheet/</a></li>
+<li><a href="https://nvie.com/posts/a-successful-git-branching-model/">https://nvie.com/posts/a-successful-git-branching-model/</a></li>
+</ul>
+<p>Git flow is multiple things. On the one side it&rsquo;s a git extension that you can use to push, pull, merge and checkout. On the other side its a branching model that gives you advice on handling your branching system in git repos.</p>
+<p><strong>First I&rsquo;d like to show the git extensions so that we have that out of the way</strong></p>
+<h2 id="installation-of-git-extensions">Installation of Git Extensions</h2>
+<pre><code>MacOS
+
+    Homebrew
+        brew install git-flow-avh
+
+    Macports
+        port install git-flow-avh
+
+Linux
+
+    apt-get install git-flow
+
+
+Windows
+
+    Cygwin
+        wget -q -O - --no-check-certificate https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh install stable | bash
+</code></pre>
+<p><strong>More information on the installation can also be found in the <a href="https://github.com/petervanderdoes/gitflow-avh/wiki/Installation">wiki</a></strong></p>
+<h3 id="usage-of-the-extension">Usage of the extension</h3>
+<p>You can start using git-flow by running</p>
+<pre><code>git flow init
+</code></pre>
+<p>in the root of your project.</p>
+<p>The command will prompt you to answer some questions about the naming of different branches.</p>
+<p>Based on multiple sources on GitHub and co, I would advise you to use the default names if your company doesn&rsquo;t specify different ones.</p>
+<p>You can start a new feature with the command</p>
+<pre><code>git flow feature start NAME
+</code></pre>
+<p>This command will create a new feature branch that is based on the develop branch. What these branch names mean will be explained in the next part of the entry.</p>
+<p>If you are finished with implementing a feature you can run</p>
+<pre><code>git flow feature finish NAME
+</code></pre>
+<p>to merge the feature back into develop and remove the branch</p>
+<h4 id="working-with-others">Working with others</h4>
+<p>If you are working with other people you can publish the feature you are working on with</p>
+<pre><code>git flow feature publish Name
+</code></pre>
+<p>and others can then pull that feature with</p>
+<pre><code>git flow feature pull origin Name
+</code></pre>
+<p>This is just a quick overview of how git-flow handles features. Git flow can also handle releases and hotfixes. But they more or less follow the same principle. Therefore I would urge you to read the wiki on git-flow and maybe try out some of the commands yourself.</p>
+<p><a href="https://github.com/petervanderdoes/gitflow-avh">Git Flow</a></p>
+<h2 id="git-flow-as-a-branching-model">Git Flow as a branching model</h2>
+<h3 id="branches">Branches</h3>
+<p>When using the git-flow branching model we split the project into the following branches:</p>
+<ul>
+<li>develop [infinite lifetime]</li>
+<li>master [infinite lifetime]</li>
+<li>features [multiple]</li>
+<li>release branches</li>
+<li>hotfixes [multiple]</li>
+</ul>
+<p>In this system the main branches are:</p>
+<ul>
+<li>develop</li>
+<li>master</li>
+</ul>
+<p>Where master reflects the current state of release and develop the current state of the finished development. Vincent Driessen also called it the integration branch.</p>
+<p>Besides the main branches, we have branches that act in a secondary capacity.</p>
+<h4 id="feature-branches">Feature branches</h4>
+<p>When working on a new functionality/feature we create a new Feature branch for that implementation. These feature branches live amongst the develop branch and merge their implementations into the develop branch when they are finished.</p>
+<p>With these multiple features for current releases or future releases can be developed at the same time and merge back into the develop branch when there are finished are needed.
+This creates a model that enables multiple developers to work on the same project and then merge their features back into the development head.</p>
+<pre><code>Please be aware that when merging a feature into the main branch you should use
+
+    git merge --no-ff [branch name]
+
+to create a new commit object. This ensures that no information about the feature is lost and the history is intact.
+</code></pre>
+<h4 id="release-branches">Release branches</h4>
+<p>When you and your team have finished implementing a set of features (like the end of a sprint) and tested them (and fixes some bugs). You create a new release</p>
+<p>This release then represents the desired point in time you want to separate the current features from the future ones. Like when entering a new sprint. You want to release the implemented features to ensure business value for the client as soon as possible and then work on the new features when this sprints features are released.</p>
+<p><strong>The only thing that is now inserted into the release branch are bug fixes.</strong></p>
+<p>These are important to ensure that the client gets a working and sound product that can be used in productions.</p>
+<pre><code>git checkout -b release-[number] develop
+</code></pre>
+<p>When you have finished fixing bugs in the release branch it is time to push it to production.</p>
+<p>So we merge the release branch into the master to reflect the new state of the production product.</p>
+<p>We also create a new tag to mark the new release</p>
+<pre><code>git tag -a [number]
+</code></pre>
+<p><strong>To keep the bug fixes in the release we have to also merge back the changes into the develop branch.</strong></p>
+<h4 id="hotfix-branches">Hotfix branches</h4>
+<p>Hotfixes are bug fixes that run between develop and master. They are created when a situation arises that is in need of immediate attention.</p>
+<p>These changes, not unlike the release branches, are merged into master and develop.
+Therefore the creation and merging of branches are the same as with the release branches.</p>
+<h3 id="git-flow-branching-summary">Git flow branching summary</h3>
+<p>Here is an image summarizing the git-flow branching model. The diagram is created by Vincent Driessen.</p>
+<p><a href="https://nvie.com/img/git-model@2x.png">https://nvie.com/img/git-model@2x.png</a>
+<img src="https://nvie.com/img/git-model@2x.png" alt="Git flow branching model"></p>
+
+    </div>
+  </article>
+  
+  
+
+
+
+
+
+  <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/posts">All posts</a></li>
+         
+          <li><a href="/tags">Tags</a></li>
+         
+          <li><a href="/about">About</a></li>
+         
+          <li><a href="/stack">Stack</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#installation-of-git-extensions">Installation of Git Extensions</a>
+      <ul>
+        <li><a href="#usage-of-the-extension">Usage of the extension</a></li>
+      </ul>
+    </li>
+    <li><a href="#git-flow-as-a-branching-model">Git Flow as a branching model</a>
+      <ul>
+        <li><a href="#branches">Branches</a></li>
+        <li><a href="#git-flow-branching-summary">Git flow branching summary</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      
+      <ul>
+  
+  
+    
+  
+  
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f">
+      <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&text=Git%20Flow">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&is_video=false&description=Git%20Flow">
+      <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=Git%20Flow&body=Check out this article: https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f">
+      <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&title=Git%20Flow">
+      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&name=Git%20Flow&description=A%20blog%20entry%20on%20the%20branching%20model%20-%20git%20flow">
+      <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fliberatnick.ch%2fposts%2fgit_flow%2f&t=Git%20Flow">
+      <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
+    </a>
+  </li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+  <br />
+<div class="footer">
+© 2020 Liberatys - Nick - CC BY 4.0
+</div>
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+
+
+
+</html>

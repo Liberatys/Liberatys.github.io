@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 06 Aug 2020 08:35:33 +0200</lastBuildDate><atom:link href="https://liberatnick.ch/tags/sass/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SASS</title>
-      <link>https://liberatnick.ch/post/internship_sass/</link>
+      <link>https://liberatnick.ch/posts/internship_sass/</link>
       <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
       
-      <guid>https://liberatnick.ch/post/internship_sass/</guid>
+      <guid>https://liberatnick.ch/posts/internship_sass/</guid>
       <description>This blog entry has been created after going through the Learn sass in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
 SASS Sass is an extension to the css language. It tries to bring some features to css that will make larger codebases easier and will also help developers keep track of current colors and other variables that are the same all across the board.</description>
     </item>

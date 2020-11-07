@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 04 Aug 2020 18:53:44 +0000</lastBuildDate><atom:link href="https://liberatnick.ch/tags/programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ruby</title>
-      <link>https://liberatnick.ch/post/internship_ruby/</link>
+      <link>https://liberatnick.ch/posts/internship_ruby/</link>
       <pubDate>Tue, 04 Aug 2020 18:53:44 +0000</pubDate>
       
-      <guid>https://liberatnick.ch/post/internship_ruby/</guid>
+      <guid>https://liberatnick.ch/posts/internship_ruby/</guid>
       <description>Ruby Today we had the opportunity to go through a tutorial / course on the ruby programming language. Because Ruby on Rails is a wiedly adopted tool in the field of web development, ruby and the knowledge thereof can come in handy in many situations.
 Difference between Ruby and other langauges  Ruby is a very dynamic and adaptive programming language that enables the programmer to go fast and stay close to the meaning of what he is trying to achieve Most methods and operations in ruby are intutive and very close to spoken language(English) Ruby code is compact, elegant and brings along a lot of hidden magic Ruby is an open source langauge.</description>
     </item>

@@ -1057,6 +1057,7 @@
   }
   .post-list .post-item {
     margin-bottom: 1rem;
+    White-space: nowrap;
     margin-left: 0;
     list-style-type: none;
   }

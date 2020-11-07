@@ -9,22 +9,22 @@
     <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://liberatnick.ch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Flow</title>
-      <link>https://liberatnick.ch/post/git_flow/</link>
+      <link>https://liberatnick.ch/posts/git_flow/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://liberatnick.ch/post/git_flow/</guid>
+      <guid>https://liberatnick.ch/posts/git_flow/</guid>
       <description>References:
- https://danielkummer.github.io/git-flow-cheatsheet/ https://nvie.com/posts/a-successful-git-branching-model/  Git Flow Git flow is multiple things. On the one side it&amp;rsquo;s a git extension that you can use to push, pull, merge and checkout. On the other side its a branching model that gives you advice on handling your branching system in git repos.
+ https://danielkummer.github.io/git-flow-cheatsheet/ https://nvie.com/posts/a-successful-git-branching-model/  Git flow is multiple things. On the one side it&amp;rsquo;s a git extension that you can use to push, pull, merge and checkout. On the other side its a branching model that gives you advice on handling your branching system in git repos.
 First I&amp;rsquo;d like to show the git extensions so that we have that out of the way
 Installation of Git Extensions MacOS Homebrew brew install git-flow-avh Macports port install git-flow-avh Linux apt-get install git-flow Windows Cygwin wget -q -O - --no-check-certificate https://raw.</description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>https://liberatnick.ch/post/internship_css/</link>
+      <link>https://liberatnick.ch/posts/internship_css/</link>
       <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
       
-      <guid>https://liberatnick.ch/post/internship_css/</guid>
+      <guid>https://liberatnick.ch/posts/internship_css/</guid>
       <description>This blog entry has been created after going through the Learn css in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
 CSS Web pages are buillt and structured with HTML, which specifies the content and hirachy of a page. CSS(Cascading Styles Sheets) specifies the apperance of a page.
 CSS is a set of static rules that define how an object appears on the page based on its selectors.</description>
@@ -32,29 +32,29 @@ CSS is a set of static rules that define how an object appears on the page based
     
     <item>
       <title>SASS</title>
-      <link>https://liberatnick.ch/post/internship_sass/</link>
+      <link>https://liberatnick.ch/posts/internship_sass/</link>
       <pubDate>Thu, 06 Aug 2020 08:35:33 +0200</pubDate>
       
-      <guid>https://liberatnick.ch/post/internship_sass/</guid>
+      <guid>https://liberatnick.ch/posts/internship_sass/</guid>
       <description>This blog entry has been created after going through the Learn sass in Y Minutes course. I&amp;rsquo;ve taken the liberty to take some examples they provide on their webiste. To learn more please visit the link above.
 SASS Sass is an extension to the css language. It tries to bring some features to css that will make larger codebases easier and will also help developers keep track of current colors and other variables that are the same all across the board.</description>
     </item>
     
     <item>
       <title>MVC</title>
-      <link>https://liberatnick.ch/post/internship_mvc/</link>
+      <link>https://liberatnick.ch/posts/internship_mvc/</link>
       <pubDate>Wed, 05 Aug 2020 13:45:28 +0200</pubDate>
       
-      <guid>https://liberatnick.ch/post/internship_mvc/</guid>
+      <guid>https://liberatnick.ch/posts/internship_mvc/</guid>
       <description>A small entry about the MVC design pattern</description>
     </item>
     
     <item>
       <title>Ruby</title>
-      <link>https://liberatnick.ch/post/internship_ruby/</link>
+      <link>https://liberatnick.ch/posts/internship_ruby/</link>
       <pubDate>Tue, 04 Aug 2020 18:53:44 +0000</pubDate>
       
-      <guid>https://liberatnick.ch/post/internship_ruby/</guid>
+      <guid>https://liberatnick.ch/posts/internship_ruby/</guid>
       <description>Ruby Today we had the opportunity to go through a tutorial / course on the ruby programming language. Because Ruby on Rails is a wiedly adopted tool in the field of web development, ruby and the knowledge thereof can come in handy in many situations.
 Difference between Ruby and other langauges  Ruby is a very dynamic and adaptive programming language that enables the programmer to go fast and stay close to the meaning of what he is trying to achieve Most methods and operations in ruby are intutive and very close to spoken language(English) Ruby code is compact, elegant and brings along a lot of hidden magic Ruby is an open source langauge.</description>
     </item>
