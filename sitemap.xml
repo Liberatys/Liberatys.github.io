@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://liberatnick.ch/</loc>
-    <lastmod>2020-11-06T21:16:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liberatnick.ch/post/lymn/</loc>
-    <lastmod>2020-11-06T21:16:43+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liberatnick.ch/post/</loc>
-    <lastmod>2020-11-06T21:16:43+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liberatnick.ch/tags/branching/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
@@ -33,7 +18,17 @@
   </url>
   
   <url>
+    <loc>https://liberatnick.ch/</loc>
+    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liberatnick.ch/tags/operations/</loc>
+    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liberatnick.ch/post/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
   
