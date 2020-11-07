@@ -103,6 +103,11 @@
   </url>
   
   <url>
+    <loc>https://liberatnick.ch/stack/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://liberatnick.ch/categories/</loc>
   </url>
   
