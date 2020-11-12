@@ -27,8 +27,8 @@
   
   
 
-  <link disabled id='dark-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-dark.css">
-  <link id='white-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-white.css">
+  <link id='dark-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-dark.css">
+  <link disabled id='white-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-white.css">
   <link rel="stylesheet" href="https://liberatnick.ch/css/custom.css">
   
     <!--[if lt IE 9]>
@@ -82,9 +82,23 @@
   </div>
   <br />
   <div class='color-schema-button'>
-    <i class="fas fa-sun"></i>
+    <i id="light-mode-toggl" class="fas fa-sun"></i>
+    <i id="dark-mode-toggl" class="fas fa-moon"></i>
   </div>
 </header>
+<script>
+  const darkMode = document.getElementById('dark-mode');
+  const lightMode = document.getElementById('white-mode');
+  document.getElementById('light-mode-toggl').addEventListener('click', function(){
+    darkMode.disabled = true;
+      lightMode.disabled = false;
+  });
+  document.getElementById('dark-mode-toggl').addEventListener('click', function(){
+    darkMode.disabled = false;
+    lightMode.disabled = true;
+  });
+</script>
+
 
 
     
@@ -130,6 +144,87 @@
               <a href="https://www.lynxbrowser.com">
                 Source
               </a>
+            
+          </div>
+          
+            <div class="stack-footer">
+              Using it since 2020
+            </div>
+          
+        </div>
+        <br />
+      
+        <div class="stack-card">
+          <header class="stack-header">
+            Tmux
+          </header>
+          <div class="stack-content">
+            A terminal multiplexer that allows you to spawn multiple shells at once and manage them with configurable key bindings
+            <br />
+            
+              <br />
+              <a href="https://www.lynxbrowser.com">
+                Source
+              </a>
+            
+          </div>
+          
+            <div class="stack-footer">
+              Using it since 2020
+            </div>
+          
+        </div>
+        <br />
+      
+      <hr />
+    
+      <h1 class="stack-category-title">Browsers</h1>
+      
+        <div class="stack-card">
+          <header class="stack-header">
+            Opera
+          </header>
+          <div class="stack-content">
+            A very performant browser that has replace chrome for me
+            <br />
+            
+          </div>
+          
+            <div class="stack-footer">
+              Using it since 2020
+            </div>
+          
+        </div>
+        <br />
+      
+        <div class="stack-card">
+          <header class="stack-header">
+            Qutebrowser
+          </header>
+          <div class="stack-content">
+            A very cool browser that I can control with vim bindings
+            <br />
+            
+          </div>
+          
+            <div class="stack-footer">
+              Using it since 2020
+            </div>
+          
+        </div>
+        <br />
+      
+      <hr />
+    
+      <h1 class="stack-category-title">Editor</h1>
+      
+        <div class="stack-card">
+          <header class="stack-header">
+            Neovim
+          </header>
+          <div class="stack-content">
+            A modern take on the modal editor that expands on vim
+            <br />
             
           </div>
           

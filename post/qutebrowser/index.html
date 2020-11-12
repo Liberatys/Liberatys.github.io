@@ -32,8 +32,8 @@ For instance, I do not have to move my mouse from the page to the status bar in 
   
   
 
-  <link disabled id='dark-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-dark.css">
-  <link id='white-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-white.css">
+  <link id='dark-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-dark.css">
+  <link disabled id='white-mode' rel="stylesheet" href="https://liberatnick.ch/css/style-white.css">
   <link rel="stylesheet" href="https://liberatnick.ch/css/custom.css">
   
     <!--[if lt IE 9]>
@@ -85,9 +85,23 @@ For instance, I do not have to move my mouse from the page to the status bar in 
   </div>
   <br />
   <div class='color-schema-button'>
-    <i class="fas fa-sun"></i>
+    <i id="light-mode-toggl" class="fas fa-sun"></i>
+    <i id="dark-mode-toggl" class="fas fa-moon"></i>
   </div>
 </header>
+<script>
+  const darkMode = document.getElementById('dark-mode');
+  const lightMode = document.getElementById('white-mode');
+  document.getElementById('light-mode-toggl').addEventListener('click', function(){
+    darkMode.disabled = true;
+      lightMode.disabled = false;
+  });
+  document.getElementById('dark-mode-toggl').addEventListener('click', function(){
+    darkMode.disabled = false;
+    lightMode.disabled = true;
+  });
+</script>
+
 
 
     
