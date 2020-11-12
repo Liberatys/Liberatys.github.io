@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Liberatys - Nick</title>
-    <link>https://liberatnick.ch/post/</link>
-    <description>Recent content in Posts on Liberatys - Nick</description>
+    <title>Utility on Liberatys - Nick</title>
+    <link>https://liberatnick.ch/tags/utility/</link>
+    <description>Recent content in Utility on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2020 22:26:40 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Nov 2020 22:26:40 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/tags/utility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Qutebrowser</title>
       <link>https://liberatnick.ch/post/qutebrowser/</link>

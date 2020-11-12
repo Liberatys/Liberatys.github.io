@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://liberatnick.ch/</loc>
+    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liberatnick.ch/post/</loc>
+    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liberatnick.ch/post/qutebrowser/</loc>
+    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liberatnick.ch/tags/</loc>
+    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liberatnick.ch/tags/tools/</loc>
+    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liberatnick.ch/tags/utility/</loc>
+    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://liberatnick.ch/tags/branching/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
@@ -18,22 +48,12 @@
   </url>
   
   <url>
-    <loc>https://liberatnick.ch/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://liberatnick.ch/tags/operations/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://liberatnick.ch/posts/</loc>
-    <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liberatnick.ch/tags/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
   </url>
   
