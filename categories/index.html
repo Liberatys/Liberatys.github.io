@@ -86,19 +86,6 @@
     <i id="dark-mode-toggl" class="fas fa-moon"></i>
   </div>
 </header>
-<script>
-  const darkMode = document.getElementById('dark-mode');
-  const lightMode = document.getElementById('white-mode');
-  document.getElementById('light-mode-toggl').addEventListener('click', function(){
-    darkMode.disabled = true;
-      lightMode.disabled = false;
-  });
-  document.getElementById('dark-mode-toggl').addEventListener('click', function(){
-    darkMode.disabled = false;
-    lightMode.disabled = true;
-  });
-</script>
-
 
 
     
@@ -122,10 +109,59 @@
 </article>
 
 
-    <br />
+    <script>
+  function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+
+  const darkMode = document.getElementById('dark-mode');
+  const lightMode = document.getElementById('white-mode');
+  const schema = getCookie("color_schema");
+  if(schema === "light"){
+    darkMode.disabled = true;
+    lightMode.disabled = false;
+  }
+  const lightSwitch = document.getElementById('light-mode-toggl');
+  const darkSwitch = document.getElementById('dark-mode-toggl');
+  if(lightSwitch){
+    lightSwitch.addEventListener('click', function(){
+      darkMode.disabled = true;
+      lightMode.disabled = false;
+      setCookie("color_schema", "light");
+    });
+    darkSwitch.addEventListener('click', function(){
+      darkMode.disabled = false;
+      lightMode.disabled = true;
+      setCookie("color_schema", "dark");
+    });
+  }
+</script>
+
+<br />
 <div class="footer">
 © 2020 Liberatys - Nick - CC BY 4.0
 </div>
+
+
 
 
   </div>
