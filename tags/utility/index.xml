@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 07 Nov 2020 22:26:40 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/tags/utility/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Qutebrowser</title>
-      <link>https://liberatnick.ch/post/qutebrowser/</link>
+      <link>https://liberatnick.ch/posts/qutebrowser/</link>
       <pubDate>Sat, 07 Nov 2020 22:26:40 +0100</pubDate>
       
-      <guid>https://liberatnick.ch/post/qutebrowser/</guid>
+      <guid>https://liberatnick.ch/posts/qutebrowser/</guid>
       <description>Why I think that we should all ban our mouse from the workflow.
 Qutebrowser
 Qutebrowser ? What is that The qutebrowser is a very cool browser that has been around for some time. What is different about qutebrowser and separates it from other browsers, is that it is mostly driven by keybindings and your beloved vim keys.
