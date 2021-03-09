@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on Liberatys - Nick</title>
-    <link>https://liberatnick.ch/tags/tools/</link>
-    <description>Recent content in Tools on Liberatys - Nick</description>
+    <title>Coding on Liberatys - Nick</title>
+    <link>https://liberatnick.ch/tags/coding/</link>
+    <description>Recent content in Coding on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 21:45:34 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 21:45:34 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why [Neovim|Vim] might not be my forever editor</title>
       <link>https://liberatnick.ch/posts/why_neovim_might_not_be_my_forever_editor/</link>
@@ -16,18 +16,6 @@
       <description>A relationship with an expiration date? I&amp;rsquo;ve been using Neovim(and Vim before that) for about three years now. A teacher of mine told me to play the vim adventure game so that I had something to do in class. It was not love at first sight.
 And for many reasons:
  There were no fancy images / emojis No refactoring tools It was running on the terminal Strange keybindings Modes? Why can&amp;rsquo;t I just insert characters in normal mode?</description>
-    </item>
-    
-    <item>
-      <title>Qutebrowser</title>
-      <link>https://liberatnick.ch/posts/qutebrowser/</link>
-      <pubDate>Sat, 07 Nov 2020 22:26:40 +0100</pubDate>
-      
-      <guid>https://liberatnick.ch/posts/qutebrowser/</guid>
-      <description>Why I think that we should all ban our mouse from the workflow.
-Qutebrowser
-Qutebrowser ? What is that The qutebrowser is a very cool browser that has been around for some time. What is different about qutebrowser and separates it from other browsers, is that it is mostly driven by keybindings and your beloved vim keys.
-For instance, I do not have to move my mouse from the page to the status bar in order to insert a new url.</description>
     </item>
     
   </channel>

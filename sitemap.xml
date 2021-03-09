@@ -1,129 +1,85 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://liberatnick.ch/tags/coding/</loc>
+    <lastmod>2021-03-07T21:45:34+01:00</lastmod>
+  </url><url>
     <loc>https://liberatnick.ch/</loc>
-    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-07T21:45:34+01:00</lastmod>
+  </url><url>
     <loc>https://liberatnick.ch/posts/</loc>
-    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-07T21:45:34+01:00</lastmod>
+  </url><url>
+    <loc>https://liberatnick.ch/tags/</loc>
+    <lastmod>2021-03-07T21:45:34+01:00</lastmod>
+  </url><url>
+    <loc>https://liberatnick.ch/tags/tools/</loc>
+    <lastmod>2021-03-07T21:45:34+01:00</lastmod>
+  </url><url>
+    <loc>https://liberatnick.ch/posts/why_neovim_might_not_be_my_forever_editor/</loc>
+    <lastmod>2021-03-07T21:45:34+01:00</lastmod>
+  </url><url>
     <loc>https://liberatnick.ch/posts/qutebrowser/</loc>
     <lastmod>2020-11-07T22:26:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liberatnick.ch/tags/</loc>
-    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://liberatnick.ch/tags/tools/</loc>
-    <lastmod>2020-11-07T22:26:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/utility/</loc>
     <lastmod>2020-11-07T22:26:40+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/branching/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/git/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/posts/git_flow/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/operations/</loc>
     <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/posts/internship_css/</loc>
     <lastmod>2020-08-06T08:35:33+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/css/</loc>
     <lastmod>2020-08-06T08:35:33+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/learning/</loc>
     <lastmod>2020-08-06T08:35:33+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/posts/internship_sass/</loc>
     <lastmod>2020-08-06T08:35:33+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/sass/</loc>
     <lastmod>2020-08-06T08:35:33+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/styling/</loc>
     <lastmod>2020-08-06T08:35:33+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/concept/</loc>
     <lastmod>2020-08-05T13:45:28+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/design-pattern/</loc>
     <lastmod>2020-08-05T13:45:28+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/posts/internship_mvc/</loc>
     <lastmod>2020-08-05T13:45:28+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/programming/</loc>
     <lastmod>2020-08-04T18:53:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/posts/internship_ruby/</loc>
     <lastmod>2020-08-04T18:53:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/tags/ruby/</loc>
     <lastmod>2020-08-04T18:53:44+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/about/</loc>
     <lastmod>2020-05-29T01:14:36+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/stack/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://liberatnick.ch/categories/</loc>
   </url>
-  
 </urlset>
