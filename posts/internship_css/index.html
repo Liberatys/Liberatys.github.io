@@ -501,11 +501,11 @@
   const darkMode = document.getElementById('dark-mode');
   const lightMode = document.getElementById('white-mode');
   const schema = getCookie("color_schema");
-  if(schema === "light"){
-    darkMode.disabled = true;
-    lightMode.disabled = false;
+  if(schema === "dark"){
+    darkMode.disabled = false;
+    lightMode.disabled = true;
   }
-  const lightSwitch = document.getElementById('light-mode-toggl');
+  const lightSwitch = documenfalset.getElementById('light-mode-toggl');
   const darkSwitch = document.getElementById('dark-mode-toggl');
   if(lightSwitch){
     lightSwitch.addEventListener('click', function(){
