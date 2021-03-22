@@ -157,9 +157,12 @@
   const darkMode = document.getElementById('dark-mode');
   const lightMode = document.getElementById('white-mode');
   const schema = getCookie("color_schema");
-  if(schema === "dark"){
-    darkMode.disabled = false;
-    lightMode.disabled = true;
+  if(schema === '') {
+    setCookie("color_schema", "light");
+  }
+  if(schema === "light"){
+    darkMode.disabled = true;
+    lightMode.disabled = false;
   }
   const lightSwitch = document.getElementById('light-mode-toggl');
   const darkSwitch = document.getElementById('dark-mode-toggl');
