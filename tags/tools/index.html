@@ -105,10 +105,21 @@
     
     <li class="post-item">
       <div class="meta">
+        <time datetime="2021-04-18 16:52:44 &#43;0200 CEST" itemprop="datePublished">18.04.2021</time>
+      </div>
+      <span>    
+        <a class="" href="https://liberatnick.ch/posts/vimtex_and_zathura_on_manjaro/"> Vimtex and Zathura on Arch / Manjaro (in NVIM) </a>
+      </span>
+    </li>
+    
+    
+    
+    <li class="post-item">
+      <div class="meta">
         <time datetime="2021-03-07 21:45:34 &#43;0100 CET" itemprop="datePublished">07.03.2021</time>
       </div>
       <span>    
-        <a class="" href="https://liberatnick.ch/posts/why-neovim-might-not-be-my-forever-editor/"> Why [Neovim|Vim] might not be my forever editor </a>
+        <a class="" href="https://liberatnick.ch/posts/why_neovim_might_not_be_my_forever_editor/"> Why [Neovim|Vim] might not be my forever editor </a>
       </span>
     </li>
     
@@ -160,9 +171,6 @@
   const darkMode = document.getElementById('dark-mode');
   const lightMode = document.getElementById('white-mode');
   const schema = getCookie("color_schema");
-  if(schema === '') {
-    setCookie("color_schema", "light");
-  }
   if(schema === "light"){
     darkMode.disabled = true;
     lightMode.disabled = false;

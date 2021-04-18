@@ -91,7 +91,7 @@ For instance, I do not have to move my mouse from the page to the status bar in 
         
         
         <li>
-          <a class="icon" href="https://liberatnick.ch/posts/why-neovim-might-not-be-my-forever-editor/">
+          <a class="icon" href="https://liberatnick.ch/posts/why_neovim_might_not_be_my_forever_editor/">
             <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
           </a>
         </li>
@@ -464,9 +464,6 @@ terminal stuff.</p>
   const darkMode = document.getElementById('dark-mode');
   const lightMode = document.getElementById('white-mode');
   const schema = getCookie("color_schema");
-  if(schema === '') {
-    setCookie("color_schema", "light");
-  }
   if(schema === "light"){
     darkMode.disabled = true;
     lightMode.disabled = false;

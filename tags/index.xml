@@ -6,22 +6,40 @@
     <description>Recent content in Tags on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Mar 2021 21:45:34 +0100</lastBuildDate><atom:link href="https://liberatnick.ch/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Apr 2021 16:52:44 +0200</lastBuildDate><atom:link href="https://liberatnick.ch/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Coding</title>
-      <link>https://liberatnick.ch/tags/coding/</link>
-      <pubDate>Sun, 07 Mar 2021 21:45:34 +0100</pubDate>
+      <title>linux</title>
+      <link>https://liberatnick.ch/tags/linux/</link>
+      <pubDate>Sun, 18 Apr 2021 16:52:44 +0200</pubDate>
       
-      <guid>https://liberatnick.ch/tags/coding/</guid>
+      <guid>https://liberatnick.ch/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvim</title>
+      <link>https://liberatnick.ch/tags/nvim/</link>
+      <pubDate>Sun, 18 Apr 2021 16:52:44 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/nvim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
       <link>https://liberatnick.ch/tags/tools/</link>
-      <pubDate>Sun, 07 Mar 2021 21:45:34 +0100</pubDate>
+      <pubDate>Sun, 18 Apr 2021 16:52:44 +0200</pubDate>
       
       <guid>https://liberatnick.ch/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coding</title>
+      <link>https://liberatnick.ch/tags/coding/</link>
+      <pubDate>Sun, 07 Mar 2021 21:45:34 +0100</pubDate>
+      
+      <guid>https://liberatnick.ch/tags/coding/</guid>
       <description></description>
     </item>
     

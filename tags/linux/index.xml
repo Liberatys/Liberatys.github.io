@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Liberatys - Nick</title>
+    <link>https://liberatnick.ch/tags/linux/</link>
+    <description>Recent content in linux on Liberatys - Nick</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Apr 2021 16:52:44 +0200</lastBuildDate><atom:link href="https://liberatnick.ch/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vimtex and Zathura on Arch / Manjaro (in NVIM)</title>
+      <link>https://liberatnick.ch/posts/vimtex_and_zathura_on_manjaro/</link>
+      <pubDate>Sun, 18 Apr 2021 16:52:44 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/posts/vimtex_and_zathura_on_manjaro/</guid>
+      <description>Installing Vimtext with Zathura on Manjaro / Arch Linux A short introduction to installing vimtex and zathura on linux (arch / manjaro).
+Installations First, you should install zathura on your system
+I usually install packages from the integrated package manager but you are free to install them from the source.
+ sudo pacman -S zathura  To use vimtex we also need latexmk which is usually packaged inside the bigger latex utilities and applications.</description>
+    </item>
+    
+  </channel>
+</rss>
