@@ -464,6 +464,11 @@ terminal stuff.</p>
   const darkMode = document.getElementById('dark-mode');
   const lightMode = document.getElementById('white-mode');
   const schema = getCookie("color_schema");
+
+  if(schema === '' || schema === null || schema === undefined) {
+      setCookie('color_schema', 'light');
+      schema = 'light';
+  }
   if(schema === "light"){
     darkMode.disabled = true;
     lightMode.disabled = false;
