@@ -85,6 +85,12 @@
         
         
         <li>
+          <a class="icon" href="https://liberatnick.ch/posts/vimtex_and_zathura_on_manjaro/">
+            <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
+          </a>
+        </li>
+        
+        <li>
           <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
             <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
           </a>
@@ -469,8 +475,10 @@ of work.</strong></p>
   const darkMode = document.getElementById('dark-mode');
   const lightMode = document.getElementById('white-mode');
   const schema = getCookie("color_schema");
-  if(schema === '') {
-    setCookie("color_schema", "light");
+
+  if(schema === '' || schema === null || schema === undefined) {
+      setCookie('color_schema', 'light');
+      schema = 'light';
   }
   if(schema === "light"){
     darkMode.disabled = true;
