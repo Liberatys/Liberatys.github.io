@@ -6,7 +6,17 @@
     <description>Recent content on Liberatys - Nick</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Apr 2021 16:52:44 +0200</lastBuildDate><atom:link href="https://liberatnick.ch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 11:37:16 +0200</lastBuildDate><atom:link href="https://liberatnick.ch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hotwire - Turbo</title>
+      <link>https://liberatnick.ch/posts/hotwire_turbo/</link>
+      <pubDate>Wed, 07 Jul 2021 11:37:16 +0200</pubDate>
+      
+      <guid>https://liberatnick.ch/posts/hotwire_turbo/</guid>
+      <description>Table of Contents  Hotwrite / Turbo  Drive  Progressbar Asset Tracking Manually trigger a full page reload Redirects after form submission Caching Navigation Events Persisting Elements across page loads   Frames  Lazy Loading In / Out of frame      Hotwrite / Turbo Migraton: https://dev.to/coorasse/from-turbolinks-to-turbo-31jl
+Drive A page navigation is seen as a visit which is connected to an ’action’. An action can either be [:advance, :replace, :restoration].</description>
+    </item>
+    
     <item>
       <title>Vimtex and Zathura on Arch / Manjaro (in NVIM)</title>
       <link>https://liberatnick.ch/posts/vimtex_and_zathura_on_manjaro/</link>
