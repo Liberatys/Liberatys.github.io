@@ -13,8 +13,9 @@
       <pubDate>Wed, 07 Jul 2021 11:37:16 +0200</pubDate>
       
       <guid>https://liberatnick.ch/posts/hotwire_turbo/</guid>
-      <description>Table of Contents  Hotwrite / Turbo  Drive  Progressbar Asset Tracking Manually trigger a full page reload Redirects after form submission Caching Navigation Events Persisting Elements across page loads   Frames  Lazy Loading In / Out of frame      Hotwrite / Turbo Migraton: https://dev.to/coorasse/from-turbolinks-to-turbo-31jl
-Drive A page navigation is seen as a visit which is connected to an ’action’. An action can either be [:advance, :replace, :restoration].</description>
+      <description>Hotwrite / Turbo Migraton: https://dev.to/coorasse/from-turbolinks-to-turbo-31jl
+Drive A page navigation is seen as a visit which is connected to an ’action’. An action can either be [:advance, :replace, :restoration]. If the page in question can be found in cache it will be preloaded to give the appearance of faster loading between frequently visited pages.
+If the iOS Adapter or Android adapter are used then the turbo drive will push the new navigiation onto the navigation stack in the native format.</description>
     </item>
     
   </channel>
